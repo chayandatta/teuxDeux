@@ -1,0 +1,27 @@
+{
+  "name": "TeuxDeux",
+  "version": "1.0.0",
+  "description": "An app by Chayan Datta",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:osx": "electron-packager . $npm_package_productName --out=dist/osx --platform=darwin --arch=arm64 --icon=assets/build/osx/icon.icns",
+    "build": "npm run pack:osx"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  },
+  "dependencies": {
+    "electron-packager": "^15.3.0"
+  }
+}
