@@ -1,5 +1,8 @@
 # teuxDeux clone using electron
 ---
+based on ![this](https://github.com/ivank/vanilla-teuxdeux)
+
+with little bit sweet magic of electron ⚡️ and love ❤️
 
 TeuxDeux clone for arm64
 
@@ -12,3 +15,4 @@ TeuxDeux clone for arm64
 TODO:
 
 - [ ] No cloud sync yet
+
